@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biofilia 2026 - Enciklopedija Prirode u Domu</title>
+    <style>
+        :root { --dark-green: #1b3022; --leaf-green: #2d5a27; --soft-green: #a7c957; --accent: #f2cc8f; --bg: #fdfdfb; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: var(--dark-green); background-color: var(--bg); margin: 0; }
+        header { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images.unsplash.com'); background-size: cover; color: white; padding: 120px 20px; text-align: center; }
+        .nav { position: sticky; top: 0; background: white; padding: 15px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 100; }
+        .nav a { margin: 0 15px; text-decoration: none; color: var(--leaf-green); font-weight: bold; text-transform: uppercase; font-size: 0.9em; }
+        .container { max-width: 1100px; margin: auto; padding: 40px 20px; }
+        
+        .hero-text { font-size: 1.2em; font-style: italic; color: var(--leaf-green); text-align: center; margin-bottom: 50px; }
+        section { margin-bottom: 60px; }
+        h2 { border-left: 8px solid var(--soft-green); padding-left: 15px; color: var(--leaf-green); font-size: 2em; }
+        
+        /* Kartice za biljke */
+        .plant-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+        .plant-card { background: white; border-radius: 15px; padding: 25px; box-shadow: 0 10px 20px rgba(0,0,0,0.05); border-top: 5px solid var(--soft-green); }
+        .specs { font-size: 0.9em; background: #f1f8e9; padding: 10px; border-radius: 8px; margin: 15px 0; }
+        
+        /* Biohemija i Wellness */
+        .info-box { background: var(--leaf-green); color: white; padding: 30px; border-radius: 15px; display: flex; flex-wrap: wrap; gap: 20px; }
+        .info-item { flex: 1; min-width: 250px; }
+        .info-item h3 { color: var(--accent); }
+
+        footer { text-align: center; padding: 50px; background: var(--dark-green); color: white; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BIOFILNI EKOSISTEM</h1>
+    <p>Simbioza čoveka, biljaka i biohemije prostora</p>
+</header>
+
+<div class="nav">
+    <a href="#enciklopedija">Biljke</a>
+    <a href="#biohemija">Biohemija</a>
+    <a href="#nega">Vodič za Negu</a>
+    <a href="#wellness">Wellness</a>
+</div>
+
+<div class="container">
+    <p class="hero-text">"U 2026. godini, dom bez biljaka je prostor bez duše. Biofilija je naučni odgovor na digitalni stres."</p>
+
+    <section id="enciklopedija">
+        <h2>Enciklopedija Biofilnih Čuvara</h2>
+        <div class="plant-grid">
+            <!-- Monstera -->
+            <div class="plant-card">
+                <h3>Monstera Deliciosa</h3>
+                <p>Kraljica džungle. Njeni veliki listovi su rezervoari vlage i simboli rasta.</p>
+                <div class="specs">
+                    ☀️ Svetlost: Indirektna, srednja | 💧 Vlaga: Visoka (orošavanje) | 🌱 Zemlja: Propusna sa perlitom
+                </div>
+            </div>
+            <!-- Sansevieria -->
+            <div class="plant-card">
+                <h3>Sansevieria (Svekrvin jezik)</h3>
+                <p>Neprikosnoveni čistač vazduha koji proizvodi kiseonik čak i tokom noći.</p>
+                <div class="specs">
+                    ☀️ Svetlost: Snalazi se i u mraku | 💧 Vlaga: Minimalna (zalivanje na 3 nedelje)
+                </div>
+            </div>
+            <!-- Musa -->
+            <div class="plant-card">
+                <h3>Musa (Sobna Banana)</h3>
+                <p>Donosi tropsku dinamiku i ubrzano disanje prostora kroz ogromnu lisnu masu.</p>
+                <div class="specs">
+                    ☀️ Svetlost: Jako direktno sunce | 💧 Vlaga: Konstantno vlažna zemlja
+                </div>
+            </div>
+            <!-- Ficus Lyrata -->
+            <div class="plant-card">
+                <h3>Ficus Lyrata</h3>
+                <p>Arhitektonski dragulj. Fokusna tačka svakog biofilnog enterijera.</p>
+                <div class="specs">
+                    ☀️ Svetlost: Svetlo mesto bez promaje | 💧 Vlaga: Umerena
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="biohemija">
+        <h2>Biohemija i Uticaj na Organizam</h2>
+        <div class="info-box">
+            <div class="info-item">
+                <h3>Fitoncidi</h3>
+                <p>Biljke emituju fitoncide, prirodna ulja koja uništavaju bakterije u vazduhu i kod ljudi direktno povećavaju broj NK ćelija (prirodnih ubica virusa).</p>
+            </div>
+            <div class="info-item">
+                <h3>Kortizol i Serotonin</h3>
+                <p>Vizuelni kontakt sa zelenilom smanjuje nivo kortizola (hormona stresa) za 15% u roku od samo 3 minuta posmatranja.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nega">
+        <h2>Način Sađenja i Čuvanja</h2>
+        <p><strong>Pravilo 2026:</strong> Ne sadimo biljke samo u saksije, već gradimo mikrosisteme.</p>
+        <ul>
+            <li><strong>Drenaža:</strong> Na dno svake saksije obavezno idu kamenčići ili keramzit (2-3 cm).</li>
+            <li><strong>Vazdušna vlaga:</strong> Grupisanje biljaka stvara njihovu sopstvenu mikroklimu (samoodrživa vlažnost).</li>
+            <li><strong>Čišćenje:</strong> Listovi su pluća. Jednom nedeljno ih brišite mekom vlažnom krpom.</li>
+        </ul>
+    </section>
+
+    <section id="wellness">
+        <h2>Wellness Ritual: "Zeleni Minuti"</h2>
+        <div class="highlight">
+            Svako jutro pre telefona, provedite 5 minuta pored svoje Monstere. Dodirnite list, proverite vlažnost zemlje. Ovaj čin uzemljenja balansira vaš nervni sistem za ceo dan.
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>Biofilia Digital Archive 2026 | Kreiramo budućnost u harmoniji sa prirodom</p>
+</footer>
+
+</body>
+</html>
 
