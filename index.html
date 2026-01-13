@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIOFILIA MAXIMA 2026 - Sveobuhvatna Enciklopedija</title>
+    <link href="fonts.googleapis.com" rel="stylesheet">
+    <style>
+        :root { --deep-forest: #0a1f02; --leaf: #2d5a27; --gold: #b8924e; --cream: #fcfaf2; }
+        body { font-family: 'Montserrat', sans-serif; background-color: var(--cream); color: var(--deep-forest); margin: 0; line-height: 1.8; }
+        
+        /* Premium Header */
+        header { 
+            height: 100vh; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images.unsplash.com');
+            background-size: cover; background-position: center; background-attachment: fixed;
+            display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center;
+        }
+        header h1 { font-family: 'Cormorant Garamond', serif; font-size: 6rem; letter-spacing: 15px; margin: 0; }
+
+        .wrapper { max-width: 1300px; margin: auto; padding: 80px 20px; }
+        
+        /* Velika Botanička Sekcija */
+        .plant-db { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 40px; }
+        .entry { background: white; padding: 40px; border-radius: 2px; border-left: 10px solid var(--leaf); box-shadow: 0 15px 35px rgba(0,0,0,0.05); }
+        .latin { font-style: italic; color: var(--gold); font-size: 0.9rem; display: block; margin-bottom: 10px; }
+
+        /* Biohemija i Wellness */
+        .science-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; margin-top: 50px; }
+        .science-card { background: var(--deep-forest); color: white; padding: 50px; position: relative; }
+        .science-card h3 { color: var(--gold); font-size: 2rem; }
+
+        /* Tabela nege - proširena */
+        .care-table { width: 100%; border-collapse: collapse; margin: 40px 0; background: white; }
+        .care-table th { background: var(--leaf); color: white; padding: 20px; text-align: left; }
+        .care-table td { padding: 20px; border-bottom: 1px solid #eee; }
+
+        h2 { font-family: 'Cormorant Garamond', serif; font-size: 4rem; text-align: center; margin-bottom: 60px; }
+        .sticky-nav { position: sticky; top: 0; background: rgba(255,255,255,0.95); padding: 15px; text-align: center; z-index: 1000; border-bottom: 1px solid #ddd; }
+        .sticky-nav a { margin: 0 20px; text-decoration: none; color: var(--deep-forest); font-weight: 600; font-size: 0.8rem; letter-spacing: 2px; }
+
+        @media (max-width: 768px) { header h1 { font-size: 3rem; } .science-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BIOFILIA MAXIMA</h1>
+    <p style="font-size: 1.2rem; letter-spacing: 5px;">KOMPLETNA ARHIVA BILJNOG ŽIVOTA I WELLNESSA</p>
+</header>
+
+<div class="sticky-nav">
+    <a href="#botanika">BOTANIKA</a>
+    <a href="#biohemija">BIOHEMIJA</a>
+    <a href="#nega">NEGA I SUPSTRATI</a>
+    <a href="#rituali">WELLNESS RITUALI</a>
+</div>
+
+<div class="wrapper">
+    
+    <section id="botanika">
+        <h2>I. Sveobuhvatni Registar Vrsta</h2>
+        <div class="plant-db">
+            <div class="entry">
+                <span class="latin">Monstera Deliciosa Liebm.</span>
+                <h3>Monstera - Kraljica Adaptacije</h3>
+                <p>Ova biljka je simbol biofilnog dizajna. Njeni listovi nisu samo ukras; oni su biološki inženjering namenjen maksimalnom hvatanju svetlosti u gustim džunglama. U enterijeru, ona deluje kao prirodni regulator vlažnosti i vizuelni centar koji smanjuje mentalni zamor.</p>
+                <p><strong>Zanimljivost:</strong> Stariji listovi razvijaju "prozore" kako bi propustili sunce mlađim listovima ispod sebe.</p>
+            </div>
+
+            <div class="entry">
+                <span class="latin">Musa paradisiaca</span>
+                <h3>Sobna Banana - Izvor Vitalnosti</h3>
+                <p>Banana unosi dinamiku zbog svog brzog rasta. Njena ogromna lisna površina služi kao moćan apsorber zvučnih talasa, što je ključno za wellness u modernim, bučnim domovima.</p>
+            </div>
+
+            <div class="entry">
+                <span class="latin">Alocasia micholitziana 'Frydek'</span>
+                <h3>Alocasia - Estetika i Preciznost</h3>
+                <p>Sa svojim baršunastim listovima, Alocasia je vrhunac biofilne estetike. Ona zahteva preciznost u negovanju, što vlasnika uči strpljenju i svesnoj prisutnosti (mindfulness).</p>
+            </div>
+
+            <div class="entry">
+                <span class="latin">Ficus Lyrata</span>
+                <h3>Ficus Lyrata - Drvo Fokusa</h3>
+                <p>Simbolizuje stabilnost i snagu. Njegovi čvrsti, kožasti listovi pročišćavaju vazduh od teških isparenja iz modernog nameštaja (VOC jedinjenja).</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="biohemija" class="science-grid">
+        <div class="science-card">
+            <h3>Biohemija Biofilije</h3>
+            <p>Biljke emituju <strong>fitoncide</strong> – isparljiva jedinjenja koja dokazano povećavaju broj naših belih krvnih zrnaca. Udisanje vazduha u prostoriji punoj biljaka direktno jača imunološki sistem i snižava krvni pritisak u roku od 15 minuta.</p>
+        </div>
+        <div class="science-card" style="background: var(--leaf);">
+            <h3>Neuro-regeneracija</h3>
+            <p>Posmatranje fraktalnih oblika listova (ponavljajući prirodni obrasci) aktivira desnu hemisferu mozga. Ovo dovodi do "meke fascinacije" koja omogućava našem prefrontalnom korteksu da se odmori od digitalnih ekrana.</p>
+        </div>
+    </section>
+
+    <section id="nega">
+        <h2>II. Protokoli za Uzgoj i Čuvanje</h2>
+        <table class="care-table">
+            <tr>
+                <th>Kategorija</th>
+                <th>Naučni Protokol (2026)</th>
+                <th>Wellness Uticaj</th>
+            </tr>
+            <tr>
+                <td><strong>Voda</strong></td>
+                <td>Filtrirana, sobne temperature. Zalivanje isključivo nakon provere vlage na dubini od 3cm.</td>
+                <td>Uči nas disciplini i pažnji prema detaljima.</td>
+            </tr>
+            <tr>
+                <td><strong>Svetlost</strong></td>
+                <td>Indirektna svetlost visokog intenziteta (minimalno 2500 Lux za tropske vrste).</td>
+                <td>Sinhronizuje naš cirkadijalni ritam (san i buđenje).</td>
+            </tr>
+            <tr>
+                <td><strong>Zemlja</strong></td>
+                <td>Mešavina kokosovog treseta, perlita i kore drveta za maksimalnu aeraciju korena.</td>
+                <td>Kontakt sa zemljom (M. vaccae bakterija) podiže serotonin.</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="rituali">
+        <h2>III. Wellness Rituali sa Biljkama</h2>
+        <div style="background: white; padding: 50px; border: 1px solid #ddd;">
+            <p><strong>Jutarnji ritual:</strong> Pre nego što proverite telefon, posvetite 3 minuta svojoj najdražoj biljci. Obrišite prašinu sa jednog lista. Taj jednostavan taktilni kontakt smanjuje nivo kortizola za jutarnji mir.</p>
+            <p><strong>Večernji ritual:</strong> Prskanje (orošavanje) biljaka uveče povećava vlažnost vazduha u spavaćoj sobi, što olakšava disanje i produbljuje san u 2026. godini.</p>
+        </div>
+    </section>
+</div>
+
+<footer style="background: #000; color: white; padding: 80px 20px; text-align: center;">
+    <p>BIOFILIA MAXIMA 2026 - VAŠ DIGITALNI HERBARIJUM</p>
+    <p style="font-size: 0.8rem; opacity: 0.5;">Kreirano za sve koji traže mir u zelenilu.</p>
+</footer>
+
+</body>
+</html>
 
